@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+  <!-- Linking to external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+  <!-- Defining character encoding -->
+  <meta charset="utf-8">
+  <!-- Setting viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>session attendance table</title>
+  <style>
+    /* Normal link */
+    a {
+      padding: 10px;
+      color: white;
+
+      background-color: yellow;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    /* Visited link */
+    a:visited {
+      color: purple;
+    }
+    /* Unvisited link */
+    a:link {
+      color: brown; /* Changed to lowercase */
+    }
+    /* Hover effect */
+    a:hover {
+      background-color: white;
+    }
+
+    /* Active link */
+    a:active {
+      background-color: red;
+    }
+
+    /* Extend margin left for search button */
+    button.btn {
+      margin-left: 15px; /* Adjust this value as needed */
+      margin-top: 4px;
+    }
+    /* Extend margin left for search button */
+    input.form-control {
+      margin-left: 1300px; /* Adjust this value as needed */
+
+      padding: 8px;
+     
+    }
+  </style>
+   <!-- JavaScript validation and content load for insert data-->
+        <script>
+            function confirmInsert() {
+                return confirm('Are you sure you want to insert this record?');
+            }
+        </script>
+  
+<header>
+   
+
+</head>
+
+<body bgcolor="skyblue">
+   <ul style="list-style-type: none; padding: 0;">
+      <li style="display: inline; margin-right: 10px;"><a href="./home.html" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">HOME</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./about.html" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">ABOUT</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./contact.html" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">CONTACT</a></li>
+  
+    <li class="dropdown" style="display: inline; margin-right: 10px;">
+      <a href="#" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">TABLE FORMS</a>
+      <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        <a href="attendee.php">Attendee</a>
+        <a href="workshop.php">Workshop</a>
+        <a href="instructor.php">Instructor</a>
+        <a href="material.php">Material</a>
+        <a href="quizzes.php">Quizzes</a>
+        <a href="resource_usage.php">resources usage</a>
+        <a href="sales.php">Sales</a>
+        <a href="sales_training_resources.php">Sales training resources</a>
+        <a href="session_attendance.php">Session Attendance</a>
+        <a href="training_feedback.php">Training Feedback</a>
+      </div>
+
+      <li class="dropdown" style="display: inline; margin-right: 10px;">
+      <a href="#" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">SIGN OUT</a>
+      <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        <a href="logout.php">Log out</a>
+      </div>
+
+
+    </li><br><br>
+    </ul>
+  </header>
+  <center>
+    <section id="home" style="display: block;">
+      <h1>WELCOME to online_sales_training_workshops_platform </h1>
+    </section>
+  </center>
+  
+  <center>
+<h1><i style="color: green;">&copy; 2024</i></h1></i><b><h1>WEB TECHNOLOGY EXAM</h1></b></center>
+
+  <footer>
+  <center> 
+    <b><h2><i>UR CBE BIT &copy, 2024 &reg, prepared by muhawenimana charles</h2></b></i>
+  </center>
+</footer>
+</body>
+</html>

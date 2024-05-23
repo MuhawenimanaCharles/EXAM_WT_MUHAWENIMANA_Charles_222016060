@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: skyblue;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 10px; /* Reduced margin-top */
+            color: black; /* Set heading color to very green */
+        }
+
+        form {
+            max-width: 200px; /* Further reduced the max-width */
+            margin: 10px auto; /* Reduced margin */
+            background: #00e676; /* Changed background to very green */
+            padding: 8px; /* Reduced the padding */
+            border-radius: 3px; /* Slightly reduced border-radius */
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Reduced box-shadow */
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: calc(100% - 12px); /* Adjusted width */
+            padding: 4px; /* Reduced padding */
+            margin: 2px 0 6px 0; /* Adjusted margin */
+            border: 1px solid #00b300; /* Changed border color to very green */
+            border-radius: 3px; /* Slightly reduced border-radius */
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: purple; /* Changed background color to purple */
+            color: white;
+            padding: 6px 12px; /* Reduced padding */
+            margin: 4px 0; /* Adjusted margin */
+            border: none;
+            border-radius: 3px; /* Slightly reduced border-radius */
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: darkred; /* Darker green on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <h2>User Registration Form</h2>
+    <form action="register.php" method="post">
+        <label>First Name:</label><br> <!-- Adjusted label text for clarity -->
+        <input type="text" name="fname" required><br>
+        <label>Last Name:</label><br> <!-- Adjusted label text for clarity -->
+        <input type="text" name="lname" required><br>
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br>
+        <label>Username:</label><br>
+        <input type="text" name="username" required><br>
+        <label>Telephone:</label><br>
+        <input type="text" name="telephone" required><br>
+        <label>Password:</label><br>
+        <input type="password" name="password" required><br>
+        <input type="submit" name="register" value="Register">
+    </form>
+</body>
+
+</html>
